@@ -1,0 +1,26 @@
+import(methods)
+import(stats)
+
+importFrom("graphics", "abline", "lines", "par", "plot")
+
+export(AIC.Nmix, anova.Nmix, coef.Nmix, dneymanA, fitted.jointNmix, fitted.uniNmix, 
+       getcorr.jointNmix, getcov.jointNmix, getranef.jointNmix, getranef.uniNmix, 
+       jointNmix, logLik.Nmix, Nmix, plot.jointNmix, plot.uniNmix, print.jointNmix,
+       print.uniNmix, residuals.jointNmix, residuals.uniNmix, simulate.jointNmix, simulate.uniNmix)
+
+S3method(AIC, Nmix)
+S3method(anova, Nmix)
+S3method(coef, Nmix)
+S3method(logLik, Nmix)
+
+S3method(fitted, jointNmix)
+S3method(plot, jointNmix)
+S3method(print, jointNmix)
+S3method(residuals, jointNmix)
+S3method(simulate, jointNmix)
+
+S3method(fitted, uniNmix)
+S3method(plot, uniNmix)
+S3method(print, uniNmix)
+S3method(residuals, uniNmix)
+S3method(simulate, uniNmix)
